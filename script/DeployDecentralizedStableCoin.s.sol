@@ -11,9 +11,8 @@ contract DeployDecentralizedStableCoin is Script {
     DecentralizedStableCoin decentralizedStableCoinContract;
 
     function run() external returns (DecentralizedStableCoin) {
-        console2.log(msg.sender);
         vm.startBroadcast();
-        decentralizedStableCoinContract = new DecentralizedStableCoin(msg.sender);
+        decentralizedStableCoinContract = new DecentralizedStableCoin();
         vm.stopBroadcast();
         return decentralizedStableCoinContract;
     }

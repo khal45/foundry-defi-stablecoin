@@ -1,0 +1,5 @@
+DSCEngineTest:testCollateralIsDeposited() (gas: 209)
+DSCEngineTest:testDepositCollateralRevertsIfAmountIsZero() (gas: 43909)
+DSCEngineTest:testDepositCollateralRevertsIfTokenNotAllowed() (gas: 14962)
+DSCEngineTest:testGetUsdValue() (gas: 25291)
+DSCEngineTest:testPriceFeedsMappingIsUpdatedCorrectly() (gas: 20628)
